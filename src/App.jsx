@@ -28,6 +28,7 @@ function App() {
       <h1>Contacts List ({contacts.length})</h1>
       <hr />
       <Contacts contacts={contacts} hash={hash} />
+      <hr />
       <Contact contact={contact} />
     </>
   )
